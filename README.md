@@ -9,7 +9,7 @@
 
 **Your OpenAPI spec lies to your face — this gate prints the drift.** The spec says `GET /orders/{id}` exists but no handler implements it, the code serves `DELETE /cache` that no spec entry documents, one side says `GET` while the other says `POST` on the same path. `route-drift` reads your OpenAPI spec plus the route definitions in your code, maps `{param}` and `:param` styles to one canonical form, and prints every mismatch with `file:line` evidence.
 
-![route-drift terminal demo](assets/demo.svg)
+![route-drift terminal demo](assets/demo.png)
 
 ## The problem is real
 
