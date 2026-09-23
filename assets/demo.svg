@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="260" viewBox="0 0 1500 260" font-family="'Cascadia Mono','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace">
+<defs><clipPath id="c"><rect x="0" y="40" width="1500" height="220" rx="0"/></clipPath></defs>
+<rect width="1500" height="260" rx="10" fill="#0d1117"/>
+<path d="M0 10 A10 10 0 0 1 10 0 H1490 A10 10 0 0 1 1500 10 V40 H0 Z" fill="#161b22"/>
+<line x1="0" y1="40" x2="1500" y2="40" stroke="#30363d"/>
+<circle cx="20" cy="20" r="6.5" fill="#ff5f56"/>
+<circle cx="42" cy="20" r="6.5" fill="#ffbd2e"/>
+<circle cx="64" cy="20" r="6.5" fill="#27c93f"/>
+<text x="750" y="25" font-size="12.5" fill="#8b949e" text-anchor="middle">route-drift  --  .red/</text>
+<text x="22" y="68" font-size="15" fill="#ff7b72" xml:space="preserve">app.js:15  FAIL  missing-spec     DELETE /cache in code -- no spec entry for /cache</text>
+<text x="22" y="90" font-size="15" fill="#ff7b72" xml:space="preserve">openapi.yaml:20  FAIL  missing-impl     GET /legacy in spec -- no code implements /legacy</text>
+<text x="22" y="112" font-size="15" fill="#ff7b72" xml:space="preserve">app.js:12  FAIL  method-mismatch  /orders/{id}: spec declares [GET], code implements [POST] (spec openapi.yaml:22; code app.js:12)</text>
+<text x="22" y="156" font-size="15" fill="#e6edf3" font-weight="600" xml:space="preserve">route-drift: 3 drift finding(s) across 5 spec path(s) (7 operation(s)), 5 code path(s) (7 operation(s))</text>
+<text x="22" y="178" font-size="15" fill="#c9d1d9" xml:space="preserve">route-drift: update the spec or the routes -- drift is a contract breach</text>
+<text x="22" y="200" font-size="15" fill="#ff7b72" font-weight="600" xml:space="preserve">[exit 1]</text>
+</svg>
